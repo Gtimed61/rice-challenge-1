@@ -19,12 +19,12 @@
 
 /* header h1 to h1 */
 
-.h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -38,11 +38,11 @@
 
 /* header div changed to nav */
 
-.nav ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.nav ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -135,8 +135,10 @@ p {
 
 /*removal of repeated sytle selectors */
 
-.image img {
-    max-height: 200px;
+.content img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
 }
 
 /* removed repeat img selectors */
