@@ -20,7 +20,7 @@
 /* header h1 to h1 */
 
 .header h1 {
-    display: inline;
+    display: inline-block;
     font-size: 48px;
 }
 
@@ -28,6 +28,7 @@
     color: #d9dcd6;
 }
 
+/*
 .header {
     padding-top: 15px;
     margin-right: 20px;
@@ -112,27 +113,7 @@ p {
     max-width: 150px;
 }
 
-/* remove excess img selectors
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-*/
+/* remove excess img selectors */
 
 .content-filling {
     margin-bottom: 20px;
@@ -166,6 +147,8 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* footer heading to h4 for order */
+
+.footer h4 {
     font-size: 20px;
 }
